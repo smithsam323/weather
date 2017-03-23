@@ -30,31 +30,32 @@ font-size: 2em;
 .day {
     margin: 0;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 6.5em;
     margin-top: 0px;
     color: white;
 }
+h3 {
+    color: white;
+    size: 3em;
+}
 
 .sunny {
-background: #FFEFBE; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #314755 , #FFEFBE); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #314755 , #FFEFBE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background: #FFEFBE; 
+background: linear-gradient(to right, #314755 , #FFEFBE); 
 }
 
 .cloudy {
-background: #A2A7A5; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #314755 , #A2A7A5); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #314755 , #A2A7A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+background: #A2A7A5; 
+background: linear-gradient(to right, #314755 , #A2A7A5);  
 }
 
 .rainy {
-background: #005C69; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #314755 , #005C69); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #314755 , #005C69); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #005C69; 
+background: linear-gradient(to right, #314755 , #005C69);
 }
 
 

@@ -81,16 +81,14 @@ var getWeather = function(location) {
   });
     
 };
-// Note: Plugin has been updated. Use version 3.1
-// https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js
-// Refer: http://simpleweatherjs.com
-
 $.simpleWeather({
-  location: 99004,
+  location: location,
   unit: 'f',
   success: function(weather) {
     // Entire weather object
     console.log(weather);
+
+
 
     // Display Data : Day 1
     $('.forecast figure:nth-child(1) .next-day').text(weather.forecast[0].day);
